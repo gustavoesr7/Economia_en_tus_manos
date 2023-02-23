@@ -1,0 +1,327 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #abf9c7;
+  }
+  
+h1 {
+    text-align: center;
+    font-size: 60px;
+    color: #000000;
+    margin-top: 40px;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+  }
+
+h4 {
+    text-align: center;
+    font-size: 20px;
+    color: #848787;
+    margin-top: 10px;
+    font-family: sans-serif;
+  }
+  .botones {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 200px;
+    padding: 50px;
+    border-bottom: 10px solid #fffefe;
+    background-color: #1ba100;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-left: 515px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .botones a {
+    color: #000000;
+  }
+  .botones a:hover {
+    text-decoration: underline;
+  }
+
+body {
+    font-family: sans-serif;
+    background-color: #f7f7f7;
+    margin:0px ;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  h1 {
+    color: #000000;
+    text-align: center;
+    margin: 10px;
+    font-size: 35px
+  }
+  h4 {
+    color: #737373;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  ul {
+    text-align: center;
+    color: black;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+  }
+  li {
+    background-color: #abf9c7;
+    padding: 10px;
+    border-bottom: 10px solid #fffefe;
+  }
+  .topicos {
+    background-color: #737373;
+    display: inline-block;
+    margin-left: 100px;
+    margin-bottom: 0px;
+    width: auto;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+
+  }
+  .barra1 {
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    background-color:black ;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .barra0 {
+    text-align: center;
+    justify-content: center;
+    color: white;
+    background-color:black ;
+    margin: 0px;
+  }
+/* Estilo del formulario de inicio de sesión */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #abf9c7;
+  }
+
+form {
+    background-color: #fff;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #abf9c7;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    text-align: center;
+    color: #000;
+    background-color: #abf9c7;
+    height: 100px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    text-align: center;
+    display: block;
+    width: 80%;
+    height: 15px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+input[type="submit"] {
+    background-color: #1ba100;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: white ;
+    color: #000000;
+    border-style: dotted;
+}
+
+/* Estilo de los mensajes de error */
+.error-message {
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 5px;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #abf9c7;
+  }
+
+h1 {
+    text-align: center;
+    color: #000;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+    color: #000000;
+    background-color: white;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+
+.fecha {
+    text-align: center;
+    font-size: 15px;
+    color: #000000;
+    background-color: rgb(37, 198, 34);
+    margin-top: 0px;
+    font-family: sans-serif;
+ }
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #abf9c7;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #000000;
+    margin-top: 40px;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    text-align: center;
+    font-size: 20px;
+    color: #848787;
+    margin-top: 10px;
+    font-family: sans-serif;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 30px;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+    color: #2c3e50;
+  }
+  
+  input,
+  select {
+    width: 80%;
+    height: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #abf9c7;
+    margin-top: 5px;
+  }
+  
+  select {
+    margin-top: 10px;
+    color: #000000;
+  }
+  
+  button[type="submit"] {
+    background-color: #1ba100;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: white ;
+    color: #000000;
+    border-style: dotted;
+  }
+  
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #abf9c7;
+}
+
+form {
+    margin: 20px auto;
+    width: 80%;
+  }
+  h1 {
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  input[type="text"], textarea, input[type="file"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  button[type="submit"] {
+    background-color: #1ba100;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: white ;
+    color: #000000;
+    border-style: dotted;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    input[type="text"], textarea, input[type="file"] {
+      width: 100%;
+    }
+    button[type="submit"] {
+      width: 100%;
+      margin-top: 20px;
+      float: none;
+    }
+  }
+  
