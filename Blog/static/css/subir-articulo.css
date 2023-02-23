@@ -1,0 +1,59 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #abf9c7;
+}
+
+form {
+    margin: 20px auto;
+    width: 80%;
+  }
+  h1 {
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  input[type="text"], textarea, input[type="file"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  button[type="submit"] {
+    background-color: #1ba100;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: white ;
+    color: #000000;
+    border-style: dotted;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    input[type="text"], textarea, input[type="file"] {
+      width: 100%;
+    }
+    button[type="submit"] {
+      width: 100%;
+      margin-top: 20px;
+      float: none;
+    }
+  }
+  
