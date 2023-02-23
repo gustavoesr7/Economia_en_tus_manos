@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Economía en tus manos</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/login.css') }}">
+  </head>
+  <body>
+    <h1>Iniciar sesion</h1>
+    <form action="/index" d="POST">
+        <label for="username">Nombre de usuario:</label><br>
+        <input type="text" id="username" name="username"><br>
+        <label for="password">Contraseña:</label><br>
+        <input type="password" id="password" name="password"><br><br>
+        <input type="submit" value="Iniciar sesión">
+      </form>      
+  </body>
+</html>

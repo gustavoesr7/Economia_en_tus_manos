@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Economía en tus manos</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/index.css') }}">
+  </head>
+  <body>
+    <h1>Economía en tus manos</h1>
+    <h4>El newsletter sobre Economía y Finanzas</h4>
+    <h3 class="barra0"> Bienvenidos al newsletter de gustavo salazar</h3>
+    <nav class="barra-nav">
+        <ol>
+            <li class="topicos"><a href="">Economía</a></li>
+            <li class="topicos"><a href="">Criptomonedas</a></li>
+            <li class="topicos"><a href="">Forex</a></li>
+            <li class="topicos"><a href="">Acciones</a></li>
+            <li class="topicos"><a href="">Trackrecord</a></li>
+            <li class="topicos"><a href="">Contactame</a></li>
+        </ol>
+    </nav>
+    <h4 class="barra1"> Los Articulos mas relevantes juntos a las noticias mas importantes del momento</h4>
+    <ul>
+      {% for publicacion in publicaciones %}
+      <li><a href="/publicacion/{{ loop.index0 }}">{{ publicacion.titulo }}</a> por {{ publicacion.autor }} el {{ publicacion.fecha }}</li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>

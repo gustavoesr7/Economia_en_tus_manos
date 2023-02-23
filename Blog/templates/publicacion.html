@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ publicacion.titulo }}</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/publicacion.css') }}">
+  </head>
+  <body>
+    <h1>{{ publicacion.titulo }}</h1>
+    <p class="fecha">por {{ publicacion.autor }} el {{ publicacion.fecha }}</p>
+    <p>{{ publicacion.contenido }}</p>
+  </body>
+</html>
