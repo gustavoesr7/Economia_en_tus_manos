@@ -1,8 +1,19 @@
 from flask import Flask, render_template, request, redirect, url_for,flash
+from flask_mysqldb import MySQL
+import bcrypt
 
 app = Flask(__name__)
 
-from flask import Flask
+app.secret_key = 'miclavesecreta'
+
+# Configure MySQL connection
+app.config['MYSQL_HOST'] = 'localhost'
+app.config['MYSQL_USER'] = 'root'
+app.config['MYSQL_PASSWORD'] = '170504Md*'
+app.config['MYSQL_DB'] = 'economiaentusmanos_users'
+app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
+
+mysql = MySQL(app)
 
 # Definir algunas publicaciones de muestra
 publicaciones = [
